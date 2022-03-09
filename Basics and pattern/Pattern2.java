@@ -15,3 +15,30 @@ public class Pattern2 {
         }
     }
 }
+
+// My way
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		
+		for (int row = 0; row <= n; row++) {
+		    int space  = row;
+		    int star = n - space;
+		    for (int j = 1; j <= star; j++) {
+		        System.out.print(" *");
+		    }
+		    
+		    for (int i = 1; i <= space; i++) {
+		        System.out.print(" \t");
+		    }
+		    
+		    System.out.println();
+		    
+		}
+		
+	}
+}
