@@ -10,7 +10,7 @@ public class Main
 		        if (row == col || row + col == n + 1) {
 		            System.out.print("*\t");
 		        } else {
-		            System.out.print(" \t");
+		            System.out.print("\t");
 		        } 
 		    }
 		    System.out.println();
